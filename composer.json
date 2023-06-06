@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/validation",
+    "name": "woodynew/hyperf-validation",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">=8.0",
-        "egulias/email-validator": "^3.0",
+        "egulias/email-validator": "^3.2",
         "hyperf/collection": "~3.0.0",
         "hyperf/contract": "~3.0.0",
         "hyperf/database": "~3.0.0",
