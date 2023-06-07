@@ -2,12 +2,12 @@
 
 ## About
 
-[hyperf/validation](https://github.com/hyperf/validation) 组件衍生于 `Laravel Validation` 组件的，我们对它进行了一些改造，大部分功能保持了相同。在这里感谢一下 Laravel 开发组，实现了如此强大好用的 Validation 组件。
+[woodynew/hyperf-validation](https://github.com/woodynew/hyperf-validation) 组件衍生于 `Laravel Validation` 组件的，我们对它进行了一些改造，大部分功能保持了相同。在这里感谢一下 Laravel 开发组，实现了如此强大好用的 Validation 组件。
 
 ## Installation
 
 ```
-composer require hyperf/validation
+composer require woodynew/hyperf-validation
 ```
 
 ## Config
@@ -18,7 +18,7 @@ composer require hyperf/validation
 # 发布国际化配置，已经发布过国际化配置可以省略
 php bin/hyperf.php vendor:publish hyperf/translation
 
-php bin/hyperf.php vendor:publish hyperf/validation
+php bin/hyperf.php vendor:publish woodynew/hyperf-validation
 ```
 
 ### Configuration path
